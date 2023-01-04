@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { TarefasDetalheComponent } from './tarefas-detalhe/tarefas-detalhe.component';
 import { TarefasListaComponent } from './tarefas-lista/tarefas-lista.component';
+import { TarefaEditarComponent } from './tarefa-editar/tarefa-editar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TarefasDetalheComponent,
-    TarefasListaComponent
+    TarefasListaComponent,
+    TarefaEditarComponent
   ],
   imports: [
     BrowserModule,
